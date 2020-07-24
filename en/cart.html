@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/elegant-font/html-css/style.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/overwrite.css">
+    <!--===============================================================================================-->
+</head>
+
+<body class="animsition">
+
+   <header class="header1">
+        <div class="container-menu-header">
+
+            <div class="wrap_header"> <a href="index.html" class="logo"> <img src="images/logo2.png" alt="IMG-LOGO">
+                </a>
+                <div class="wrap_menu">
+                    <nav class="menu">
+                        <ul class="main_menu">
+                            <li class="sale-noti"> <a href="index.html">Home</a></li>
+                            <li> <a href="product.html">products</a>
+                            </li>
+                            <li> <a href="design.html">Designs</a>
+                           
+                            </li>
+                            <li> <a href="my-ideas.html">MY Ideas</a></li>
+                            <li> <a href="about.html">About</a></li>
+                            <li> <a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-icons">
+
+                    <div class="header-wrapicon2">
+
+                        <a class="header-icon1 js-show-header-dropdown sign-in" href="login.html"><i class="fa fa-user" aria-hidden="true"></i> Sign In </a>
+
+
+                        <!--
+                        <div class="header-cart header-dropdown header-cart-login">
+                            <ul class="header-cart-wrapitem login">
+
+
+                                <li class="header-cart-item">
+                                    <a href="Order.html"> My orders </a>
+                                </li>
+                                <li class="header-cart-item">
+                                    <a href="account-settings.html"> Account Settings </a>
+                                </li>
+                                <li class="header-cart-item">
+                                    <a href="#">sign out </a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+-->
+                    </div>
+
+
+
+                    <span class="linedivide1"></span>
+                    <div class="header-wrapicon2">
+
+                        <a class="header-icon1 js-show-header-dropdown" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> </a>
+
+                        <span class="header-icons-noti">0</span>
+
+                    </div>
+                    <a href="../ar/index.html" class="btn btn-lang" > AR </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="wrap_header_mobile">
+            <a href="index.html" class="logo-mobile"> <img src="images/logo2.png" alt="IMG-LOGO"> </a>
+            <div class="btn-show-menu">
+                <div class="header-icons-mobile">
+                    <a href="login.html" class="header-wrapicon1 dis-block">
+                        <img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+                    </a>
+                    <span class="linedivide2"></span>
+                    <div class="header-wrapicon2">
+
+                        <a class="header-icon1 js-show-header-dropdown" href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> </a>
+
+                        <span class="header-icons-noti">0</span>
+
+                    </div>
+                </div>
+                <div class="btn-show-menu-mobile hamburger hamburger--squeeze"> <span class="hamburger-box"> <span class="hamburger-inner"></span> </span></div>
+            </div>
+        </div>
+        <div class="wrap-side-menu">
+            <nav class="side-menu">
+                <ul class="main-menu">
+                    <li class="item-menu-mobile"> <a href="index.html">Home</a></li>
+
+
+                    <li class="item-menu-mobile"> <a href="product.html">products</a>
+
+                    </li>
+                    <li class="item-menu-mobile"><a href="design.html">Designs</a>
+                    </li>
+                    <li class="item-menu-mobile"> <a href="my-ideas.html">MY Ideas</a></li>
+                    <li class="item-menu-mobile"> <a href="about.html">About</a></li>
+                    <li class="item-menu-mobile"> <a href="contact.html">Contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  <section class="bgwhite p-b-60 ">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <section class=" col-xs-12    p-t-62">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-7 col-sm-7">
+                                <h3 class="">
+                                    Your Shopping Cart
+                                </h3>
+                            </div>
+                            <div class="col-lg-4 col-md-5 col-sm-5  p-t-5">
+                                <p class="col-xs-12 text-bold text-gray-lightest ">
+                                    every day, 6am - 9pm PT. </p>
+                                <p class="p-r-35">
+
+                                    <span class="header-5 no-margin text-primary"> <i class="fa fa-phone" aria-hidden="true"></i> 1-800-934-1571</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="cart bgwhite p-t-30 p-b-100">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Cart item -->
+
+                            <div class="wrap-table-shopping-cart bgwhite col-lg-8 col-md-12 col-sm-12 m-b-20">
+                                <div class="msg-info">
+                                    <div class="text-danger">
+                                        We’re sorry, this item cannot be shipped to . You can remove this item from your order or
+                                        <a href="Shipping-Addresses.html" class="text-primary font-bold" data-toggle="modal" data-target=".bd-email-modal">contact us</a>
+
+
+                                    </div>
+
+                                </div>
+
+<div class="table-responsive">
+                                <table class="table-shopping-cart text-center tabel-center">
+                                    <tr class="table-head text-center">
+                                        <th class="column-1"> Your Items</th>
+                                        <th class="column-2">SKU </th>
+                                        <th class="column-3">Price</th>
+                                        <th class="column-4">Qty</th>
+
+                                    </tr>
+
+                                    <tr class="table-row">
+                                        <td class="column-1">
+                                            <div class="cart-img-product b-rad-4 o-f-hidden">
+                                                <img src="images/1.webp" alt="IMG-PRODUCT">
+                                            </div>
+                                        </td>
+                                        <td class="column-2">
+                                            410196CHOB
+                                        </td>
+                                        <td class="column-3">$36.00</td>
+                                        <td class="column-4">
+                                            <div class="m-b-10 m-r-22 m-t-10 of-hidden">
+                                                <div class="bo4 of-hidden rs2-select2 rs3-select2">
+                                                    <select class="selection-2" name="color">
+                                                        <option selected="" value="1"> 1</option>
+                                                        <option value="2"> 2</option>
+                                                        <option value="3"> 3</option>
+                                                        <option value="4"> 4</option>
+                                                        <option value="5"> 5</option>
+                                                        <option value="6"> 6</option>
+                                                        <option value="7"> 7</option>
+                                                        <option value="8"> 8</option>
+                                                        <option value="9"> 9</option>
+                                                        <option value="10"> 10</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="actions-order"><a href="#" class=" removeItem">Remove</a></div>
+<!--                                            <div class="actions-order"><a href="#" class=" moveToWishList">Move to Wish List</a></div>-->
+                                        </td>
+
+                                    </tr>
+                                    <tr class="table-row">
+                                        <td class="column-1">
+                                            <div class="cart-img-product b-rad-4 o-f-hidden">
+                                                <img src="images/1%20(11).webp" alt="IMG-PRODUCT">
+                                            </div>
+                                        </td>
+                                        <td class="column-2">
+                                            410196CHOB
+                                        </td>
+                                        <td class="column-3">$36.00</td>
+                                        <td class="column-4">
+                                            <div class="m-b-10 m-r-22 m-t-10 of-hidden">
+                                                <div class="bo4 of-hidden rs2-select2 rs3-select2 ">
+                                                    <select class="selection-2" name="color">
+                                                        <option selected="" value="1"> 1</option>
+                                                        <option value="2"> 2</option>
+                                                        <option value="3"> 3</option>
+                                                        <option value="4"> 4</option>
+                                                        <option value="5"> 5</option>
+                                                        <option value="6"> 6</option>
+                                                        <option value="7"> 7</option>
+                                                        <option value="8"> 8</option>
+                                                        <option value="9"> 9</option>
+                                                        <option value="10"> 10</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="actions-order"><a href="#" class=" removeItem">Remove</a></div>
+<!--                                            <div class="actions-order"><a href="#" class=" moveToWishList">Move to Wish List</a></div>-->
+                                        </td>
+
+                                    </tr>
+
+
+                                </table>
+                                </div>
+                            </div>
+                            <div class="wrap-table-shopping-cart bgwhite col-lg-4 col-md-12 col-sm-12">
+
+
+                                <table class="table-shopping-cart">
+                                    <tr class="table-head order-title">
+                                        <th class="column-2 "> Order Details</th>
+                                        <th class="column-4"></th>
+
+
+                                    </tr>
+
+                                    <tr class="order-row">
+                                        <td class="column-2">
+                                            Subtotal
+                                        </td>
+                                        <td class="column-4">$36.00</td>
+
+                                    </tr>
+                                    <tr class="order-row">
+                                        <td class="column-2">
+                                            Shipping
+                                        </td>
+                                        <td class="column-4">$36.00</td>
+
+                                    </tr>
+                                    <tr class="order-row">
+                                        <td class="column-2">
+                                            Tax
+                                        </td>
+                                        <td class="column-4">- -</td>
+
+                                    </tr>
+                                    <tr class="table-head order-title order-row">
+                                        <th class="column-2 total-order "> Total </th>
+                                        <th class="column-4 total-order"> $7.00</th>
+
+
+                                    </tr>
+                                </table>
+                                <div class=" p-t-20">
+                                    <a class="flex-c-m size2 bg4 bo-rad-3 hov1 m-text3 trans-0-4 btn-primary" href="shipping.html">
+
+                                        Proceed to Checkout </a></div>
+                                <div class="text-center m-t-20">
+                                    <a href="product.html" class="continue-shop" compid="cartContinueShopping">«Continue Shopping</a></div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+    </section>
+    
+     <footer class="bg6 p-t-35 p-b-35 p-l-45 p-r-45">
+        <div class="container">
+            <div class="row p-b-90">
+                <div class="col-md-12 text-center">
+
+                </div>
+                <div class="col-md-3  col-sm-6 p-t-20 p-l-15 p-r-15 respon3">
+                    <h4 class="s-text12 p-b-30"> CONNECT WITH US</h4>
+                    <div>
+                        <ul class="social-icons top-i icon-circle icon-rotate list-unstyled list-inline">
+<li> <p class=" s-text7">
+                                    Every day, 6am - 9pm PT. </p> </li>
+                            <li> <a href="" target="_blank"> <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <span class="footer-icon"> 1-800-934-1571 </span>
+                                </a>
+                            </li>
+                            <li> <a href="" target="_blank"><i class="fa fa-facebook fa-top"></i>
+                                    <span class="footer-icon">facebook </span>
+                                </a>
+                            </li>
+                            <li> <a href="#">
+                                    <i class="fa fa-twitter fa-top" target="_blank"></i>
+                                    <span class="footer-icon">twitter </span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-3  col-sm-6 p-t-20 p-l-15 p-r-15 respon4">
+                    <h4 class="s-text12 p-b-30"> COMPANY</h4>
+                    <ul>
+
+
+                       <li class="p-b-9"> <a href="hwo-to-buy.html" class="s-text7">About us</a></li>
+                          <li class="p-b-9"> <a href="hwo-to-buy.html" class="s-text7"> Be Partner with us</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-sm-6 p-t-20 p-l-15 p-r-15 respon4">
+                    <h4 class="s-text12 p-b-30"> GET HELP</h4>
+                    <ul>
+
+                        <li class="p-b-9"> <a href="Order.html" class="s-text7"> Your Orders </a></li>
+
+
+                        <li class="p-b-9"> <a href="contact.html" class="s-text7"> Contact Us </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 p-t-20 p-l-15 p-r-15 respon4">
+                    <h4 class="s-text12 p-b-30"> SHARE YOUR IDEAS</h4>
+                    <p class="s-text7"> We love hearing from you. Send ideas and comments to </p>
+                    <a href="#" class=" s-text7 get-contact">Click here.</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    
+    
+       <div class="modal  bd-product-modal" tabindex="-1" role="dialog" aria-labelledby="bd-email-modal" aria-hidden="true">
+        <div class="modal-dialog size-modal ">
+            <div class="modal-content rounded-0 modal-height">
+                <div class="modal-header bg5">
+                    <h5>
+                        Products</h5>
+                    <button type="button" class="close ml-auto mr-3 mt-2" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Product Detail -->
+                    <div class="container bgwhite">
+                        <div class="row">
+
+
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-b-25">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/0%20(8).webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Bath</h3>
+
+                                    </figcaption>
+                                    <a href="product.html"></a>
+                                </figure>
+                            </div>
+
+
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-b-25">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/0%20(2).webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Building</h3>
+
+                                    </figcaption>
+                                    <a href="product.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-b-25">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/0%20(2).webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Dining</h3>
+
+                                    </figcaption>
+                                    <a href="product2.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-b-25">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/0%20(19).webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Furniture</h3>
+
+                                    </figcaption>
+                                    <a href="product.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-b-25">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/0%20(23).webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Garden</h3>
+
+                                    </figcaption>
+                                    <a href="product2.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-b-25">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/0%20(13).webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Lighting</h3>
+
+                                    </figcaption>
+                                    <a href="product.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-b-25">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/1%20(19).webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>More</h3>
+
+                                    </figcaption>
+                                    <a href="product.html"></a>
+                                </figure>
+                            </div>
+
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-b-25">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/4.webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Treasury</h3>
+
+                                    </figcaption>
+                                    <a href="product2.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-b-25">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/1%20(22).webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Vase</h3>
+
+                                    </figcaption>
+                                    <a href="product.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-b-25">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/1%20(21).webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Carving</h3>
+
+                                    </figcaption>
+                                    <a href="product.html"></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+      <div class="modal  bd-Designs-modal" tabindex="-1" role="dialog" aria-labelledby="bd-email-modal" aria-hidden="true">
+        <div class="modal-dialog size-modal lg-modal">
+            <div class="modal-content rounded-0 modal-height">
+                <div class="modal-header bg5">
+                    <h5>
+                        Designs</h5>
+                    <button type="button" class="close ml-auto mr-3 mt-2" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- Product Detail -->
+                    <div class="container bgwhite">
+                        <div class="row">
+
+                            <!--
+                 <div class="col-sm-4 col-md-3 col-lg-4 col-6 p-b-25 catg-block">
+                     <a class="" href="design.html">
+
+                         <div class=" product-one">
+
+                             <img src="images/08.webp" alt="IMG-PRODUCT" class="img-fluid" style="position: relative">
+
+
+                             <p style=" position: absolute;    top: 92px;
+    left: 66px;
+    color: white;
+
+    font-size: 20px;">
+                                 Balcony
+                             </p>
+
+
+                         </div>
+                     </a>
+                 </div>
+-->
+
+
+
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-8 ">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/11.webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Balcony</h3>
+
+                                    </figcaption>
+                                    <a href="design.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-8">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/11.webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Ceiling</h3>
+
+                                    </figcaption>
+                                    <a href="design.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-8">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/11.webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Decor</h3>
+
+                                    </figcaption>
+                                    <a href="room-detail.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-8">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/11.webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Dining</h3>
+
+                                    </figcaption>
+                                    <a href="room-detail.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-8">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/11.webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Fasad</h3>
+
+                                    </figcaption>
+                                    <a href="room-detail.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-8">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/11.webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Floor</h3>
+
+                                    </figcaption>
+                                    <a href="room-detail.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-8">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/11.webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Furniture</h3>
+
+                                    </figcaption>
+                                    <a href="room-detail.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-8">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/11.webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Garden</h3>
+
+                                    </figcaption>
+                                    <a href="room-detail.html"></a>
+                                </figure>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 p-8">
+                                <figure class="block-design deign-modal">
+                                    <img src="images/11.webp" alt="IMG-PRODUCT" class="img-fluid" />
+                                    <figcaption>
+                                        <h3>Lighting</h3>
+
+                                    </figcaption>
+                                    <a href="room-detail.html"></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Back to top -->
+    <div class="btn-back-to-top bg0-hov" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </span>
+    </div>
+
+    <!-- Container Selection -->
+    <div id="dropDownSelect1"></div>
+    <div id="dropDownSelect2"></div>
+
+
+  <div class="modal  bd-email-modal" tabindex="-1" role="dialog" aria-labelledby="bd-email-modal" aria-hidden="true">
+        <div class="modal-dialog w-size5">
+            <div class="modal-content rounded-0">
+                <div class="modal-header bg5">
+                    <h5>Send Requset</h5>
+                    <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Product Detail -->
+                    <div class="container bgwhite">
+                        <div class="row">
+                            <div class="col-12">
+                                <form class="leave-comment">
+
+                                    <label for="subject">Email :</label>
+                                    <div class="bo4 of-hidden size15 m-b-20">
+                                        <input class="sizefull s-text7 p-l-22 p-r-22" type="text" name="subject" >
+                                    </div>
+                                      <label for="subject">Phone :</label>
+                                    <div class="bo4 of-hidden size15 m-b-20">
+                                        <input class="sizefull s-text7 p-l-22 p-r-22" type="number" name="subject" >
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer p-15 ">
+
+
+
+                    <div class="row ">
+                        <div class="col-2">
+
+                        </div>
+                        <div class="col-4">
+                            <a data-dismiss="modal" aria-label="Close" class=" btn    btn-white  font-13">
+                                Close
+                            </a>
+                        </div>
+                        <div class="col-4 p-l-30">
+                            <a class="btn btn-primary font-13">
+                                send
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+    <script type="text/javascript">
+        $(".selection-1").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
+
+        $(".selection-2").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect2')
+        });
+    </script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+   <script>
+        $(document).ready(function() {
+            function alignModal() {
+                var modalDialog = $(this).find(".modal-dialog");
+
+                // Applying the top margin on modal dialog to align it vertically center
+                modalDialog.css("margin-top", Math.max(0, ($(window).height() - modalDialog.height()) / 2));
+            }
+            // Align modal when it is displayed
+            $(".modal").on("shown.bs.modal", alignModal);
+
+
+        });
+    </script>
+</body>
+
+</html>
+

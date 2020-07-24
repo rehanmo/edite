@@ -1,0 +1,34 @@
+body
+{
+    direction: rtl;
+}
+.block2-btn-addcart
+{
+        left: 59%;
+}
+.p-r-0 {
+    padding-right: 10px;
+}
+.bo-r {
+    border-left: 1px solid #eaeaea;
+}
+
+.file-upload .file-select
+{
+        text-align: right;
+}
+
+@media screen and (max-width: 980px) {
+.w-size-modal {
+    width: calc(100% /1);
+     padding-right: 0px; 
+    padding-left: 19px;
+}
+}
+@media screen and (max-width: 980px) {
+.size-modal {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 18px;
+}
+}
